@@ -19947,11 +19947,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/gurpreetkaur/Projects/Keep_Notes_Android/Keep_Notes_Android/Keep_Notes_Android.csproj",
+      "projectUniqueName": "/Users/gurpreetkaur/Documents/WEBSERVICES_API/Notes_App_Android/Keep_Notes_Android.csproj",
       "projectName": "Keep_Notes_Android",
-      "projectPath": "/Users/gurpreetkaur/Projects/Keep_Notes_Android/Keep_Notes_Android/Keep_Notes_Android.csproj",
+      "projectPath": "/Users/gurpreetkaur/Documents/WEBSERVICES_API/Notes_App_Android/Keep_Notes_Android.csproj",
       "packagesPath": "/Users/gurpreetkaur/.nuget/packages/",
-      "outputPath": "/Users/gurpreetkaur/Projects/Keep_Notes_Android/Keep_Notes_Android/obj/",
+      "outputPath": "/Users/gurpreetkaur/Documents/WEBSERVICES_API/Notes_App_Android/obj/",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
