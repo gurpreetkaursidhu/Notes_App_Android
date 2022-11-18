@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodel="clr-namespace:Keep_Notes_Android.ViewModel"
+             Title="                         My Diary"  BackgroundColor="#556" 
+             xmlns:mct="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui"
+             x:Class="Keep_Notes_Android.MainPage"
+             x:DataType="viewmodel:MainViewModel">
+            <!-- Title is responsible for title of the screen and for the whole color of the background which is grey-->
+
+ <Page.Behaviors>
+
+     <mct:StatusBarBehavior StatusBarColor="#FF869E"/>
+
+ </Page.Behaviors>
+
+<Grid   RowDefinitions="100, Auto, *"
+        ColumnDefinitions=".75*, .25*"
+        RowSpacing="15"
+        ColumnSpacing="10">
+
+
+
+            <Grid>
+    <Grid.RowDefinitions>
+        <RowDefinition Height="100"    />
+        <RowDefinition Height="50" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="200" />
+        <ColumnDefinition />
+    </Grid.ColumnDefinitions>    
+    <Label Text="Column 0, Row 0"
+           WidthRequest="600"  HeightRequest="210"      BackgroundColor="#FF869E"            />
+
+
+            <Image BackgroundColor="AliceBlue" Source="https://t4.ftcdn.net/jpg/03/66/05/03/360_F_366050372_z3wzgrPuAs39EZ8K8yV0PnEw276kjfgY.jpg" WidthRequest="590"                  />
+
+
+
+</Grid>
+
+     <Rectangle HorizontalOptions="Center" Fill="Black" HeightRequest="1"  />
+     <Entry Placeholder="Enter Task" PlaceholderColor="White" BackgroundColor="#FF869E" 
+            Text= "{Binding Text}"   Grid.Row="1"/>
+    
+
+      <Button Text="Add" TextColor="White" 
+              Command="{Binding AddCommand } "
+               Grid.Row=" 1"
+               Grid.Column="1"/>
+
+      
+      <CollectionView Grid.Row="2" Grid.ColumnSpan="2"
+                      ItemsSource="{Binding Items}"
+                      SelectionMode="None">
+ <CollectionView.ItemTemplate>
+
+              <DataTemplate x:DataType="{x:Type x:String} ">
+                  <SwipeView>
+                      <SwipeView.RightItems>
+                          <SwipeItems>
+                              <SwipeItem Text ="Delete" BackgroundColor="#556"
+                                         Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}},Path=DeleteCommand}" CommandParameter=" {Binding .}" />
+                                         
+
+                          </SwipeItems>
+
+                      </SwipeView.RightItems>
+                  <Grid Padding=" 0.5">
+                      <Frame BackgroundColor="AliceBlue">
+                          <Frame.GestureRecognizers>
+
+                              <TapGestureRecognizer
+                                             Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}},Path=TapCommand}" CommandParameter=" {Binding .}" />
+
+                          </Frame.GestureRecognizers>
+                          <Label Text="{Binding .}"
+                                 FontSize="20"/>
+
+                      </Frame>
+
+                  </Grid>
+                     </SwipeView>
+              </DataTemplate>
+
+          </CollectionView.ItemTemplate>
+
+
+      </CollectionView>
+
+
+     
+</Grid> 
+
+</ContentPage>
+

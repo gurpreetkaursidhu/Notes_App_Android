@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Keep_Notes_Android.DetailPage"
+             xmlns:viewwmodel="clr-namespace:Keep_Notes_Android.ViewModel"
+             x:DataType="viewwmodel:DetailViewModel"
+             Title="Detail Page" BackgroundColor="AliceBlue" >
+    <VerticalStackLayout Padding="30">
+
+
+        
+        
+
+
+
+
+        <Label 
+            Text="{Binding Text}"  FontSize="25"
+            Padding="30"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Button Text=" Go Back"
+                Command=" {Binding GoBackCommand}"/>
+
+
+
+
+        
+
+    </VerticalStackLayout>
+</ContentPage>
+
+
+<!--Padding decides the gap between detailpage bar (navigation bar ) and text-->
+<!---    Text=" {Binding Text}"-->
