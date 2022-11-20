@@ -35,10 +35,10 @@
 	</PropertyGroup>
 	<ItemGroup>
 		<!-- App Icon -->
-		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" BaseSize="128,128" Color="#FF869E" />
 		<MauiSplashScreen Include="Resources\Splash\mydiary.svg" Color="#556" BaseSize="128,128" />
 		<MauiFont Include="Resources\Fonts\*" Color="#000000" />
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
+		
 	</ItemGroup>
 
 	<ItemGroup>
@@ -54,8 +54,8 @@
 	  <None Remove="Resources\Splash\My Diary.svg" />
 	  <None Remove="Resources\AppIcon\" />
 	  <None Remove="Resources\Images\mydiaryicon.svg" />
-	  <None Remove="Resources\AppIcon\appicon.svg" />
-	  <None Remove="Resources\AppIcon\appiconfg.svg" />
+	  <None Remove="Resources\AppIcon\mydiary.png" />
+	  <None Remove="Resources\AppIcon\mydiaryy.png" />
 	</ItemGroup>
 	<ItemGroup>
 	  <PackageReference Include="CommunityToolkit.Maui" Version="2.0.0" />
@@ -73,11 +73,12 @@
 	  </MauiXaml>
 	</ItemGroup>
 	<ItemGroup>
-	  <MauiSplashScreen Include="Resources\Splash\mydiary.svg" />
+	
 	</ItemGroup>
 	<ItemGroup>
 	  <BundleResource Include="Resources\Images\mydiaryicon.svg" />
-	  <BundleResource Include="Resources\AppIcon\appicon.svg" />
-	  <BundleResource Include="Resources\AppIcon\appiconfg.svg" />
+	</ItemGroup>
+	<ItemGroup>
+	  <MauiIcon Include="Resources\AppIcon\mydiaryy.png" />
 	</ItemGroup>
 </Project>

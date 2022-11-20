@@ -2,29 +2,42 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Keep__Notes__Android PreferredExecutionTarget="MyAppleMacCatalystID" />
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.1.0.1" />
+  <MonoDevelop.Ide.ItemProperties.Keep__Notes__Android PreferredExecutionTarget="Android.Pixel_3a_API_33_arm64-v8a" />
   <MonoDevelop.Ide.Workbench ActiveDocument="MainPage.xaml.cs">
     <Files>
-      <File FileName="MainPage.xaml" Line="1" Column="1" />
-      <File FileName="MainPage.xaml.cs" Line="16" Column="12" />
+      <File FileName="MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="Platforms/Android/MainActivity.cs" />
+      <File FileName="../../../../../usr/local/share/dotnet/packs/Microsoft.Android.Sdk.Darwin/32.0.476/tools/Xamarin.Android.Common.targets" />
+      <File FileName="Keep_Notes_Android.csproj" />
+      <File FileName="../../../../../usr/local/share/dotnet/packs/Microsoft.Maui.Resizetizer.Sdk/7.0.49/targets/Microsoft.Maui.Resizetizer.targets" />
+      <File FileName="Platforms/Android/MainApplication.cs" />
+      <File FileName="MainPage.xaml" />
+      <File FileName="Platforms/Android/AndroidManifest.xml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Keep_Notes_Android" expanded="True">
             <Node name="Keep_Notes_Android" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Platforms" expanded="True">
+                <Node name="Android" expanded="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="AppIcon" expanded="True" />
+                <Node name="Splash" expanded="True" />
+              </Node>
               <Node name="MainPage.xaml" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.Pixel_3a_API_33_arm64-v8a" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
