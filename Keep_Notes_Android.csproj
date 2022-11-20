@@ -12,7 +12,7 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 
 		<!-- Display name -->
-		<ApplicationTitle>Keep_Notes_Android</ApplicationTitle>
+		<ApplicationTitle>My Diary</ApplicationTitle>
 
 		<!-- App Identifier -->
 		<ApplicationId>com.companyname.keep_notes_android</ApplicationId>
