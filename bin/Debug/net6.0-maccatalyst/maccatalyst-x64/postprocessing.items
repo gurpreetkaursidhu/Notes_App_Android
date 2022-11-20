@@ -9,7 +9,7 @@
       <dSYMInfoPlistRelativePath>Keep_Notes_Android.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
       <SymbolFile>obj/Debug/net6.0-maccatalyst/maccatalyst-x64/mtouch-symbols.list</SymbolFile>
       <DSymName>Keep_Notes_Android.app.dSYM</DSymName>
-      <SourceProjectPath>/Users/gurpreetkaur/Projects/Keep_Notes_Android/Keep_Notes_Android</SourceProjectPath>
+      <SourceProjectPath>/Users/gurpreetkaur/Documents/WEBSERVICES_API/Notes_App_Android</SourceProjectPath>
     </_PostProcessingItem>
   </ItemGroup>
 </Project>

@@ -12,7 +12,7 @@
       <CodesignDisableTimestamp>true</CodesignDisableTimestamp>
       <CodesignKeychain></CodesignKeychain>
       <CodesignUseHardenedRuntime></CodesignUseHardenedRuntime>
-      <SourceProjectPath>/Users/gurpreetkaur/Projects/Keep_Notes_Android/Keep_Notes_Android</SourceProjectPath>
+      <SourceProjectPath>/Users/gurpreetkaur/Documents/WEBSERVICES_API/Notes_App_Android</SourceProjectPath>
     </_CodesignBundle>
   </ItemGroup>
 </Project>
