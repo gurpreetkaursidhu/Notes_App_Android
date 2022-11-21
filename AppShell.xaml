@@ -4,12 +4,32 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Keep_Notes_Android"
-    Shell.FlyoutBehavior="Disabled">
+    Shell.FlyoutBehavior="Flyout">
 
-    <ShellContent
+ <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
+ <FlyoutItem Title="Reminder" Icon="pen.png">
+    <ShellContent
+        ContentTemplate="{DataTemplate local:MainPage}"/>
+</FlyoutItem>
+
+<FlyoutItem Title="Archive" Icon="Home.png">
+    <ShellContent
+        ContentTemplate="{DataTemplate local:MainPage}"/>
+</FlyoutItem>
+
+<FlyoutItem Title="About" Icon="questionmark.png">
+    <ShellContent
+        ContentTemplate="{DataTemplate local:MainPage}"/>
+</FlyoutItem>
+
+<Shell.FlyoutHeader>
+    <Grid HeightRequest="100" BackgroundColor="#FF869E">
+        <Image Source="flowwer.png" />
+    </Grid>
+</Shell.FlyoutHeader>
 
 </Shell>
 

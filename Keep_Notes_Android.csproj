@@ -56,6 +56,7 @@
 	  <None Remove="Resources\Images\mydiaryicon.svg" />
 	  <None Remove="Resources\AppIcon\mydiary.png" />
 	  <None Remove="Resources\AppIcon\mydiaryy.png" />
+	  <None Remove="Resources\Images\pen.png" />
 	</ItemGroup>
 	<ItemGroup>
 	  <PackageReference Include="CommunityToolkit.Maui" Version="2.0.0" />
@@ -77,6 +78,7 @@
 	</ItemGroup>
 	<ItemGroup>
 	  <BundleResource Include="Resources\Images\mydiaryicon.svg" />
+	  <BundleResource Include="Resources\Images\pen.png" />
 	</ItemGroup>
 	<ItemGroup>
 	  <MauiIcon Include="Resources\AppIcon\mydiaryy.png" />
