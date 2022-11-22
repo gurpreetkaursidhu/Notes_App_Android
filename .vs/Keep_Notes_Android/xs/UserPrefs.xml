@@ -1,18 +1,19 @@
 ﻿<Properties StartupConfiguration="{5C764E9F-495E-4993-82B8-9033594EDBA5}|Default">
-  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.1.0.1" />
+  <MonoDevelop.Ide.ItemProperties.Keep__Notes__Android PreferredExecutionTarget="Android.pixel_5_-_api_33" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="MainPage.xaml.cs" />
       <File FileName="Platforms/Android/MainActivity.cs" />
       <File FileName="../../../../../usr/local/share/dotnet/packs/Microsoft.Android.Sdk.Darwin/32.0.476/tools/Xamarin.Android.Common.targets" />
-      <File FileName="Keep_Notes_Android.csproj" />
+      <File FileName="Keep_Notes_Android.csproj" Line="62" Column="3" />
       <File FileName="../../../../../usr/local/share/dotnet/packs/Microsoft.Maui.Resizetizer.Sdk/7.0.49/targets/Microsoft.Maui.Resizetizer.targets" />
       <File FileName="Platforms/Android/MainApplication.cs" />
+      <File FileName="AppShell.xaml.cs" />
+      <File FileName="MauiProgram.cs" />
       <File FileName="MainPage.xaml" />
       <File FileName="Platforms/Android/AndroidManifest.xml" />
-      <File FileName="AppShell.xaml" Line="13" Column="40" />
-      <File FileName="AppShell.xaml.cs" Line="1" Column="1" />
-      <File FileName="MauiProgram.cs" Line="1" Column="1" />
+      <File FileName="AppShell.xaml" Line="9" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -29,7 +30,7 @@
                 <Node name="Images" expanded="True" />
                 <Node name="Splash" expanded="True" />
               </Node>
-              <Node name="AppShell.xaml" expanded="True" selected="True" />
+              <Node name="AppShell.xaml" expanded="True" />
               <Node name="MainPage.xaml" expanded="True" />
             </Node>
           </Node>
@@ -37,12 +38,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.Pixel_3a_API_33_arm64-v8a" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_33" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.1.0.1" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Keep__Notes__Android PreferredExecutionTarget="Android.Pixel_3a_API_33_arm64-v8a" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
