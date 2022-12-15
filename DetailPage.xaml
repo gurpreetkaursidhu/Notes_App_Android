@@ -21,6 +21,9 @@
             HorizontalOptions="Center" />
 
         <Button Text=" Go Back"
+                HorizontalOptions="End"
+                VerticalOptions="Fill"
+               
                 Command=" {Binding GoBackCommand}"/>
 
 

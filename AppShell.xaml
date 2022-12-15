@@ -4,18 +4,19 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Keep_Notes_Android"
-
+    FlyoutBackgroundColor="Gray"
+    
     Shell.FlyoutBehavior="Flyout">
-
- <ShellContent
+    <!--Flyoutbackground color change the background od whole the flyout page-->
+ <ShellContent 
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
         Icon="home.png"
-        Route="MainPage"/>
+        Route="MainPage"        />
 
- <FlyoutItem Title="Reminder" Icon="bell.png">
-    <ShellContent
-        ContentTemplate="{DataTemplate local:MainPage}"/>
+ <FlyoutItem Title="Reminder" Icon="bell.png"  >
+    <ShellContent 
+        ContentTemplate="{DataTemplate local:DetailPage}"/>
 </FlyoutItem>
 
 <FlyoutItem Title="Archive" Icon="folder.png">
@@ -29,7 +30,7 @@
 </FlyoutItem>
 
 <Shell.FlyoutHeader>
-    <Grid HeightRequest="210" BackgroundColor="#FF869E">
+    <Grid HeightRequest="110" BackgroundColor="#FF869E">
         <Image Source="flowwer.png" />
     </Grid>
 </Shell.FlyoutHeader>
