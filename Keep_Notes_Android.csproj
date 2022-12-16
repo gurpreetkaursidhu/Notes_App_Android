@@ -81,12 +81,14 @@
 	</ItemGroup>
 	<ItemGroup>
 	  <BundleResource Include="Resources\Images\mydiaryicon.svg" />
-	  <BundleResource Include="Resources\Images\folder.png" />
-	  <BundleResource Include="Resources\Images\bell.png" />
-	  <BundleResource Include="Resources\Images\home.png" />
-	  <BundleResource Include="Resources\Images\gear.png" />
 	</ItemGroup>
 	<ItemGroup>
 	  <MauiIcon Include="Resources\AppIcon\mydiaryy.png" />
+	</ItemGroup>
+	<ItemGroup>
+	  <MauiImage Include="Resources\Images\folder.png" />
+	  <MauiImage Include="Resources\Images\gear.png" />
+	  <MauiImage Include="Resources\Images\home.png" />
+	  <MauiImage Include="Resources\Images\bell.png" />
 	</ItemGroup>
 </Project>

@@ -1915,3 +1915,7 @@
 /Users/gurpreetkaur/Documents/WEBSERVICES_API/Notes_App_Android/obj/Debug/net6.0-android/stamp/_GenerateJavaStubs.stamp
 /Users/gurpreetkaur/Documents/WEBSERVICES_API/Notes_App_Android/obj/Debug/net6.0-android/stamp/_GeneratePackageManagerJava.stamp
 /Users/gurpreetkaur/Documents/WEBSERVICES_API/Notes_App_Android/obj/Debug/net6.0-android/stamp/_ResolveLibraryProjectImports.stamp
+/Users/gurpreetkaur/Documents/WEBSERVICES_API/Notes_App_Android/obj/Debug/net6.0-android/resizetizer/r/drawable/bell.png
+/Users/gurpreetkaur/Documents/WEBSERVICES_API/Notes_App_Android/obj/Debug/net6.0-android/resizetizer/r/drawable/folder.png
+/Users/gurpreetkaur/Documents/WEBSERVICES_API/Notes_App_Android/obj/Debug/net6.0-android/resizetizer/r/drawable/gear.png
+/Users/gurpreetkaur/Documents/WEBSERVICES_API/Notes_App_Android/obj/Debug/net6.0-android/resizetizer/r/drawable/home.png

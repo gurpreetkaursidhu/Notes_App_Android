@@ -40,10 +40,10 @@
 
 </Grid>
     <!-- that thin line for representing the entering text-->
-     <Rectangle HorizontalOptions="Start" Fill="Black" HeightRequest="2" VerticalOptions="End" WidthRequest="500"  Margin="100 , 80 "   />
+     <Rectangle HorizontalOptions="Start" Fill="#FF869E" HeightRequest="2" VerticalOptions="End" WidthRequest="500"  Margin="100 , 100 "   />
      <Entry Placeholder="Enter Task" PlaceholderColor="White" BackgroundColor="#FF869E" 
             Text= "{Binding Text}"   Grid.Row="1"/>
-       <Rectangle HorizontalOptions="Start" Fill="Black" HeightRequest="6" VerticalOptions="End" WidthRequest="500"  Margin=" .10 , .45   "  />   
+       <Rectangle HorizontalOptions="Start" Fill="#FF869E" HeightRequest="6" VerticalOptions="End" WidthRequest="500"  Margin=" .10 , .45   "  />   
 
       <Button Text="Add" TextColor="White" 
               Command="{Binding AddCommand } "
